@@ -1,0 +1,117 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #0073e6;
+            padding: 20px;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .cta-button {
+            background: #ff9900;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .feature-grid, .pricing-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .feature, .plan {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            width: 200px;
+        }
+        form input {
+            padding: 10px;
+            margin-right: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>MySaaS</h1>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#signup" class="cta-button">Sign Up</a>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Grow Your Business with MySaaS</h2>
+        <p>Powerful, easy-to-use, and scalable software to streamline your workflow.</p>
+        <a href="#signup" class="cta-button">Get Started</a>
+    </section>
+    
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature">✔ Cloud-Based</div>
+            <div class="feature">✔ Secure & Reliable</div>
+            <div class="feature">✔ AI-Powered Insights</div>
+            <div class="feature">✔ 24/7 Support</div>
+        </div>
+    </section>
+    
+    <section id="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-grid">
+            <div class="plan">Free - $0/month</div>
+            <div class="plan">Pro - $19/month</div>
+            <div class="plan">Enterprise - $49/month</div>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <h2>What Our Users Say</h2>
+        <p>"MySaaS has transformed our workflow! Highly recommended." - Jane Doe</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 MySaaS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
